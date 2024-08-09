@@ -1,61 +1,15 @@
-# Flask or Django Framework
-Flask==2.3.2   # If using Flask
-# Django==4.2.2  # If using Django, uncomment this line and remove the Flask line
-
-# Database
-SQLAlchemy==2.1.0   # For Flask SQLAlchemy integration
-psycopg2-binary==2.9.7  # PostgreSQL adapter
-mysqlclient==2.1.1  # MySQL adapter
-
-# Authentication
-Flask-JWT-Extended==4.4.0   # JWT for Flask
-# djangorestframework-simplejwt==5.2.2  # JWT for Django
-
-# Forms and Validation
-WTForms==3.0.1   # For form handling in Flask
-Flask-WTF==1.1.1   # Flask-WTF for forms in Flask
-# django-crispy-forms==1.14.0  # For Django form handling
-
-# Migrations
-Flask-Migrate==4.0.4  # Database migration for Flask
-# django-environ==0.9.0  # For environment variable management in Django
-# django-extensions==3.1.5  # Django extensions
-
-# Email handling
-Flask-Mail==0.9.1  # For sending emails in Flask
-# django-anymail==9.2  # For Django
-
-# Testing
-pytest==7.4.0  # Testing framework
-pytest-flask==1.2.1  # Pytest plugin for Flask apps
-coverage==7.3.1  # Test coverage reporting
-
-# Security
-Flask-Bcrypt==1.0.1  # Password hashing for Flask
-# django-environ==0.9.0  # Environment variables management in Django
-
-# Serialization
-marshmallow==3.19.0  # For object serialization in Flask
-Flask-Marshmallow==0.15.1  # Flask integration with marshmallow
-# djangorestframework==3.14.0  # For Django REST API
-
-# CORS handling
-Flask-CORS==3.1.0  # For handling CORS in Flask
-# django-cors-headers==4.3.0  # For Django
-
-# HTTP client (for testing or external API calls)
-requests==2.31.0
-
-# Machine Learning/AI (if applicable)
-scikit-learn==1.5.1  # For any ML models used in the system
-
-# Miscellaneous
-fuzzywuzzy==0.18.0  # For text matching (like symptom matching)
-python-Levenshtein==0.20.10  # For faster string matching (recommended with fuzzywuzzy)
-
-# Environment variables
-python-dotenv==1.0.0  # Load environment variables from a .env file
-
-# Cache (optional)
-Flask-Caching==2.0.1  # For caching in Flask
-# django-redis==5.3.0  # For caching in Django
+blinker==1.8.2
+click==8.1.7
+colorama==0.4.6
+Flask==3.0.3
+greenlet==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+numpy==2.0.0
+pytz==2024.1
+six==1.16.0
+SQLAlchemy==2.0.31
+typing_extensions==4.12.2
+tzdata==2024.1
+Werkzeug==3.0.3
